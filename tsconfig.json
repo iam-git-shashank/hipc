@@ -1,0 +1,23 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compileOnSave": false,
+  "files": [],
+  "references": [
+
+    {
+      "path": "./apps/micauth"
+    },
+  
+    {
+      "path": "./apps/micchat"
+    },
+   
+    {
+      "path": "./apps/micgateway"
+    },
+   
+    {
+      "path": "./apps/micusers"
+    }
+  ]
+}
